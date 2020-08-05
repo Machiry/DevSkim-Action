@@ -17,10 +17,9 @@ inputs:
     description: 'The sub directory for the output under GITHUB_WORKSPACE.'
     required: false
     default: "GITHUB_WORKSPACE"
-outputs:
 branding:
-  icon: 'check-square'  
-  color: 'green'  
+    icon: 'check-square'  
+    color: 'green'  
 runs:
   using: 'docker'
   image: 'Dockerfile'
